@@ -1,5 +1,5 @@
 ---
-title: 為了製作模板引擎印出View物件
+title: php-echo物件class的方法
 categories: Github
 tags:
 - jekyll

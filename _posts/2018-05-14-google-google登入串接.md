@@ -1,5 +1,5 @@
 ---
-title: 為了使用 google 登入機制
+title: google-google登入串接
 categories: Github
 tags:
 - jekyll

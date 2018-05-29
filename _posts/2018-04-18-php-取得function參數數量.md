@@ -1,5 +1,5 @@
 ---
-title: 為了取得class內function的參數數量
+title: php-取得function參數數量
 categories: Github
 tags:
 - jekyll

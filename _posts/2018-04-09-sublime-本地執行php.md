@@ -1,5 +1,5 @@
 ---
-title: 為了解決快速測試簡單的php程式
+title: sublime-本地執行php
 categories: Github
 tags:
 - jekyll
