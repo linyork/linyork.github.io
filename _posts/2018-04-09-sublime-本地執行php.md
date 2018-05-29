@@ -1,13 +1,14 @@
 ---
+layout: post
 title: sublime-本地執行php
 categories: Github
 tags:
-- jekyll
-- hexo
+- sublime
 ---
 ## 目的 ##
 
  - 為了解決快速測試簡單的php程式
+ <!-- more -->
  
 ## 操作 ##
 

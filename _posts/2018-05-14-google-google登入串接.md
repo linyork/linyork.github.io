@@ -1,13 +1,14 @@
 ---
+layout: post
 title: google-google登入串接
 categories: Github
 tags:
-- jekyll
-- hexo
+- google
 ---
 ## 目的 ##
 
  - 為了使用 google 登入機制
+ <!-- more -->
  
 ## 紀錄 ##
 

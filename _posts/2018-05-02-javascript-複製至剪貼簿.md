@@ -1,13 +1,14 @@
 ---
+layout: post
 title: javascript-複製至剪貼簿
 categories: Github
 tags:
-- jekyll
-- hexo
+- javascript
 ---
 ## 目的 ##
 
  - 為了達到一鍵複製字串(url)
+ <!-- more -->
  
 ## 紀錄 ##
 

@@ -1,13 +1,14 @@
 ---
+layout: post
 title: php-取得function參數數量
 categories: Github
 tags:
-- jekyll
-- hexo
+- php
 ---
 ## 目的 ##
 
  - 為了取得class內function的參數數量
+ <!-- more -->
  
 ## 紀錄 ##
 
