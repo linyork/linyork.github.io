@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 筆記列
+title: Archives
 ---
 
 <section id="archive">

@@ -1,10 +1,9 @@
 ---
 layout: post
 title: php-echo物件class的方法
-categories: Github
+categories: backend
 tags:
 - php
-- 後端
 ---
 ## 目的 ##
 

@@ -1,10 +1,9 @@
 ---
 layout: post
 title: sublime-本地執行php
-categories: Github
+categories: base
 tags:
 - sublime
-- 基礎設施
 ---
 ## 目的 ##
 

@@ -1,10 +1,9 @@
 ---
 layout: post
 title: javascript-複製至剪貼簿
-categories: Github
+categories: frontend
 tags:
 - javascript
-- 前端
 ---
 ## 目的 ##
 

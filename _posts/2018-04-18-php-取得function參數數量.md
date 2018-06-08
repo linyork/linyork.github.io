@@ -1,10 +1,9 @@
 ---
 layout: post
 title: php-取得function參數數量
-categories: Github
+categories: backend
 tags:
 - php
-- 後端
 ---
 ## 目的 ##
 

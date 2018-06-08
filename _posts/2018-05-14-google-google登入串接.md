@@ -1,10 +1,9 @@
 ---
 layout: post
 title: google-google登入串接
-categories: Github
+categories: backend
 tags:
 - google
-- 後端
 ---
 ## 目的 ##
 

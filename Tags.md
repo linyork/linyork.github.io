@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 標籤列
+title: Tags
 ---
 
 <div class="tags-expo">
