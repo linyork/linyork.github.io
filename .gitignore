@@ -8,3 +8,5 @@ _site
 
 # base
 .DS_Store
+
+# bundle exec jekyll serve
