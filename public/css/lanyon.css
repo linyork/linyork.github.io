@@ -339,7 +339,7 @@ a.sidebar-nav-item:focus {
   border-radius: 4px;
   color: #ffffff;
   font-family: $font-sans;
-  font-size: 90%;
+  /*font-size: 90%;*/
   &:before {
     content: "\f02b";
     font-family: "PT Sans", Helvetica, Arial, sans-serif;

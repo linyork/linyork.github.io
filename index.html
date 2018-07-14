@@ -21,7 +21,7 @@ title: 主頁
     {% endif %}
     <br/><br/>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
     {{ post.excerpt }}
 
     <a href="{{ site.baseurl }}{{ post.url }}">

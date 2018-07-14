@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tags
+title: 標籤
 ---
 
 <div class="tags-expo">
@@ -12,15 +12,17 @@ title: Tags
   <hr/>
   <div class="tags-expo-section">
     {% for tag in site.tags %}
-    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+    <h1 id="{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</h1>
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-      <li>
-        {{ post.title }}
-      <small class="post-date">{{ post.date | date_to_string }}</small>
-      </li>
-      </a>
+          <li>
+            {{ post.title }}
+            <small class="post-date">
+              {{ post.date | date: "%Y-%m-%d" }}
+            </small>
+          </li>
+         </a>
       {% endfor %}
     </ul>
     {% endfor %}
