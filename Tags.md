@@ -5,8 +5,13 @@ title: 標籤
 
 <div class="tags-expo">
   <div class="tags-expo-list">
+    <div href="" class="post-tag" style="background:#ccc">
+      All - {{ site.posts.size }} 篇
+    </div>
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+    <a href="#{{ tag[0] | slugify }}" class="post-tag">
+      {{ tag[0] }} - {{ tag[1].size }} 篇
+    </a>
     {% endfor %}
   </div>
   <hr/>
