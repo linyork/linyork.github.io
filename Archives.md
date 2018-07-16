@@ -17,7 +17,18 @@ title: 歸檔
         <ul class="post-list">
       {% endif %}
     {% endunless %}
-      <li>{{ post.date | date: "%m-%d" }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}"></time></span></a></li>
+      <li>
+        <div class="post-tag" style="background:#ccc">
+            {{ post.date | date: "%m-%d" }}
+        </div>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+          <span class="entry-date">
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+            </time>
+          </span>
+        </a>
+      </li>
   {% endfor %}
   </ul>
 </section>

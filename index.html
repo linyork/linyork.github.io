@@ -38,21 +38,18 @@ title: 主頁
     </h1>
 
     {% if post.tags %}
+      <div class="post-tag" style="background:#ccc"> {{ post.date | date: "%Y-%m-%d" }} </div>
       {% for tag in post.tags %}
-    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">
-        {{ tag }}
-    </a>
+        <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">
+          {{ tag }}
+        </a>
       {% endfor %}
     {% endif %}
-    <br/><br/>
-
-    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    <br/>
     {{ post.excerpt }}
-
     <a href="{{ site.baseurl }}{{ post.url }}">
-      檢視更多...
+      查看更多
     </a>
-
   </div>
   {% endfor %}
 </div>
