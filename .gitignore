@@ -1,3 +1,5 @@
+# $ bundle exec jekyll serve
+
 # IDE
 .idea
 
@@ -8,5 +10,3 @@ _site
 
 # base
 .DS_Store
-
-# bundle exec jekyll serve

@@ -3,6 +3,31 @@ layout: default
 title: 主頁
 ---
 
+<div class="pagination">
+
+  {% if paginator.previous_page %}
+
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">上一頁</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">上一頁</a>
+    {% endif %}
+
+  {% else %}
+
+    <span class="pagination-item newer">上一頁</span>
+
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">下一頁</a>
+  {% else %}
+    <span class="pagination-item older">下一頁</span>
+  {% endif %}
+
+
+</div>
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -30,22 +55,5 @@ title: 主頁
 
   </div>
   {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
 </div>
 
