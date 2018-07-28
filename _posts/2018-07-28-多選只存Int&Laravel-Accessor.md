@@ -53,4 +53,5 @@ class Order extends Model
 ````
 
 ps: 注意此雷只限定於 elquent model 為非集合狀態時可使用的 function
+
 ps: 白話文就是 TMD 只能使用在 first() 或是 find(1) 之後
