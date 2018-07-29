@@ -38,14 +38,13 @@ class Order extends Model
     // 特定 column 的 Accessor(訪問者)
     public function getOptionAttribute($value)
     {
-        if($value==0) return [0];
+        if($value <=0 ) return [0];
         
         $pad = 0;
-        $array = [];
         
         while ($value)
         {
-            if ($value & 1) array_push($array, 1 << $pad);
+            if ($value & 1) $array[] = 1 << $pad;
             $pad++;
             $value >>= 1;
         }
