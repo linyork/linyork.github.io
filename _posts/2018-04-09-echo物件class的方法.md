@@ -1,6 +1,6 @@
 ---
 layout: post
-title: php-echo物件class的方法
+title: echo物件class的方法
 categories: backend
 tags:
 - php
