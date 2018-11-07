@@ -1,27 +1,71 @@
-# Permalinks
-permalink:           pretty
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: York's blog
+email:
+description: A simple and awesome blog theme powered by jekyll.
+url: https://york.hypenode.tw/
+keywords: ["blog", "jekyll"]
 
-# Setup
-title:               York
-tagline:             '  部落格'
-description:         '邁向全端五路皆通'
-url:                 https://linyork.github.io
-baseurl:             ''
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Asia/Taipei
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!-- more -->
+permalink:         /articles/:year-:month/:title
 
-paginate:            5
-excerpt_separator:  '<!-- more -->'
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-# Where are tags and categories displayed
-tag_page: '/Tags/'
-
-plugins:
-  - jekyll-paginate
-
-# About/contact
-author:
-  name:              York lin
-  url:               https://linyork.github.io
-  email:             jason945119@gmail.com
-
-# Custom vars
-version:             1.0.0
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: York
+  avatar: favicon.ico
+  job: "A programmer"
+  bio: "邁向全端"
+  email: "jason945119@gmail.com"
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: "linyork"
+  gitlab: #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  skype: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
+  reddit: #username
+  telegram: #username
