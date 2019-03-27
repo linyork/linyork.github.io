@@ -17,7 +17,7 @@ tags:
 
 Singleton.php
 ```php
-<?
+<?php
 abstract class Singleton
 {
     final protected function __construct(){}
