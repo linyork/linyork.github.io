@@ -1,4 +1,9 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
+- name: frameyork
+  descr: "框架練習"
   image: pong.png
-  github: https://github.com/renyuanz/leonids
+  github: https://github.com/linyork/frameyork
+  
+- name: hypepush
+  descr: "php composer 簡易推播小工具"
+  image: pong.png
+  github: https://github.com/linyork/hypepush
