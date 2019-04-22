@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://york.hypenode.tw/sitemap.xml
