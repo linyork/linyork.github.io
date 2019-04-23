@@ -122,6 +122,9 @@ footer {
     list-style: none;
   }
 }
+canvas {
+    pointer-events: none;
+}
 
 // Scrollbar
 ::-webkit-scrollbar {
