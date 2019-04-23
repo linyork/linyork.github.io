@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TemplateMethod設計模式
+title: 樣板方法模式(Template Method Pattern)
 categories: backend
 tags:
 - php

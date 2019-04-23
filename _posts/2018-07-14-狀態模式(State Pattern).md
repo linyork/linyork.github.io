@@ -1,6 +1,6 @@
 ---
 layout: post
-title: State設計模式
+title: 狀態模式(State Pattern)
 categories: backend
 tags:
 - php

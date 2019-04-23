@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Facade設計模式
+title: 外觀模式(Facade Pattern)
 categories: backend
 tags:
 - php

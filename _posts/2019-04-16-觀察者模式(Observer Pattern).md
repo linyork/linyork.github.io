@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Observer設計模式
+title: 觀察者模式(Observer Pattern)
 categories: backend
 tags:
 - php

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Singleton設計模式
+title: 單例模式(Singleton Pattern)
 categories: backend
 tags:
 - php
