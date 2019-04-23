@@ -55,6 +55,7 @@ audio,
 canvas,
 progress,
 video {
+  pointer-events: none;
   display: inline-block; /* 1 */
   vertical-align: baseline; /* 2 */
 }
