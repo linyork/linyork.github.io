@@ -35,6 +35,10 @@
     font-size: 2em;
 }
 
-.nav-list .nav-item a {
-    font-size: 125%;
+.nav-list {
+    .nav-item {
+        a {
+            font-size: 125%;
+        }
+    }
 }
