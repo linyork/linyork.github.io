@@ -54,7 +54,7 @@ func Generate(id string) string {
     jsonTokenPayload, _ := json.Marshal(payload)
 
     // 加密
-    unsignedToken := structEncode(string(jsonTokenHeader)) + "." + structEncode(string(jsonTokenPayload))
+    unsignedToken := structEncode(jsonTokenHeader) + "." + structEncode(jsonTokenPayload)
     signature := encodeHS256(unsignedToken)
 
     // 組合
@@ -92,28 +92,32 @@ func getPayload(id string) *payload {
     }
 }
 
-func structEncode(s string) string {
-    return base64.RawURLEncoding.EncodeToString([]byte(s))
+func structEncode(s []byte) string {
+    return base64.RawURLEncoding.EncodeToString(s)
 }
 
 func structDecode(str string) []byte {
-    byte, err := base64.RawURLEncoding.DecodeString(str)
+    b, err := base64.RawURLEncoding.DecodeString(str)
     if err != nil {
         fmt.Println(`failed base64 Decode`, err)
     }
-    return byte
+    return b
 }
 
 func encodeHS256(u string) string {
+    // new 一個 HMAC 結構體使用 jwt 的 key
     h := hmac.New(sha256.New, []byte(key))
+
+    // 寫入資料
     h.Write([]byte(u))
+
+    // Get result and encode as hexadecimal string
     return hex.EncodeToString(h.Sum(nil))
 }
 
 func DecodeHS256(u string) string {
     return "TO DO"
 }
-
 ```
 
 使用
