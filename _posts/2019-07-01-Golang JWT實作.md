@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Goland JWT實作
+title: Golang JWT實作
 categories: backend
 tags:
 - go
