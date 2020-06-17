@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ApacheBasicAuth
+description: Apache Basic Auth
 categories: backend
 tags:
 - web

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: kubernetes簡易範例
+description: kubernetes簡易範例
 categories: backend
 tags:
 - kubernetes
