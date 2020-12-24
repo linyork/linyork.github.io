@@ -1,3 +1,13 @@
+- name: Dibbling-extensino
+  descr: "Youtube 點播系統 之 Chrome Extension "
+  image: pong.png
+  github: https://github.com/linyork/dibbling-extension
+
+- name: Dibbling
+  descr: "Youtube 點播系統"
+  image: pong.png
+  github: https://github.com/linyork/dibbling
+
 - name: frameyork
   descr: "框架練習"
   image: pong.png

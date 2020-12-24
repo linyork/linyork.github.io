@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: LNMP, Go, Python, HTML/CSS, Docker, Infrastructure
-percentage: 85, 60, 70, 80, 80, 80
+aspects: PHP, Python, Node, HTML/CSS, Docker, Infrastructure
+percentage: 95, 70, 80, 90, 85, 85

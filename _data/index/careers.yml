@@ -1,9 +1,14 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name: 核心技術有限公司
-  link:
-  date: 2018/06 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  job:  RD, SA
+  link: https://core-tech.tw/
+  date: 2019/11 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job:  Team Leader
+
+- name: 核心技術有限公司
+  link: https://core-tech.tw/
+  date: 2018/06 - 2019-11
+  job: RD, SA
 
 - name: 年頡科技股份有限公司
   link:
@@ -11,7 +16,7 @@
   job:  RD, SA
 
 - name: 禾多移動多媒體股份有限公司
-  link:
+  link: https://www.avividai.com/
   date: 2016/10 - 2017/10
   job:  RD, SA, Leader
 
