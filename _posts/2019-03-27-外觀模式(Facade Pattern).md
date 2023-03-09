@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 外觀模式(Facade Pattern)
+description: 往多個社交媒體同步消息的流程
 categories: backend
 tags:
 - php

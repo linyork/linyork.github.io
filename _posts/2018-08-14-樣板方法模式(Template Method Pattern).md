@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 樣板方法模式(Template Method Pattern)
+description: 因各個頁面不同,實作麵包屑模板
 categories: backend
 tags:
 - php

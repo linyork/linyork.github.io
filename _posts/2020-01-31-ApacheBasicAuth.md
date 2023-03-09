@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ApacheBasicAuth
-description: Apache Basic Auth
+description: Apache Basic Auth, 幫網站加入 Basic Auth
 categories: backend
 tags:
 - web

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 多選只存 Int & Laravel Accessor
+description: 為處理DB處理多選時只取一個int要轉特定格式
 categories: backend
 tags:
 - php

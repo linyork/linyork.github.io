@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PHP7的Exceptions
+description: 為處理 Exception 的包裝
 categories: backend
 tags:
 - php

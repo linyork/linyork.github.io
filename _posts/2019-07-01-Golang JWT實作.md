@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Golang JWT實作
-description: Implement JWT by Golang
+description: Implement JWT by Golang, 實作 JWT 功能
 categories: backend
 tags:
 - go

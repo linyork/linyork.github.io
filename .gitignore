@@ -1,4 +1,5 @@
 # $ bundle exec jekyll serve
+vendor
 
 # IDE
 .idea

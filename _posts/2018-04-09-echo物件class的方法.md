@@ -1,6 +1,7 @@
 ---
 layout: post
 title: echo物件class的方法
+description: 為了製作模板引擎印出View物件
 categories: backend
 tags:
 - php

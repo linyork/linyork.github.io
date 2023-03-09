@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 觀察者模式(Observer Pattern)
+description: 使用者註冊後寄送通知
 categories: backend
 tags:
 - php

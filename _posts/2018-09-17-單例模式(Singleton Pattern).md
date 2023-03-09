@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 單例模式(Singleton Pattern)
+description: 拿取資料的 model 只實例化一次存於 runtime cache 中
 categories: backend
 tags:
 - php

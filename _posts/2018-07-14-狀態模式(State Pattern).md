@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 狀態模式(State Pattern)
+description: 實作 Facebook or PTT 的讚噓功能
 categories: backend
 tags:
 - php

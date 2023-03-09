@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Javascript偵測Request來自瀏覽器的回到上一頁
-description: Javascript performance navigation type
+description: Javascript performance navigation type, 偵測Request來自瀏覽器的回到上一頁
 categories: frontend
 tags:
 - javascript
