@@ -1,3 +1,4 @@
+# $ nvm use 2.7.7 --default
 # $ bundle exec jekyll serve
 vendor
 
