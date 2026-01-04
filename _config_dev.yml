@@ -1,0 +1,14 @@
+# 本地開發環境配置
+# 這個檔案會覆蓋 _config.yml 中的設定
+
+# 本地開發不設定 URL，使用相對路徑
+# 這樣無論從 localhost 還是 127.0.0.1 訪問都能正常載入資源
+url: ""
+
+# 啟用更詳細的錯誤訊息
+show_drafts: true
+future: true
+
+# 開發環境特定設定
+livereload: true
+incremental: true

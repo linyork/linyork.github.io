@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Archive
+title: Archive
 permalink: /archive/
 ---
 
@@ -8,15 +8,18 @@ permalink: /archive/
   <div class="timeline" id="timeline">
     {% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y' " %}
     {% for group in posts_by_year %}
-      <div class="archive-title">
-        <h4 class="archive-year">{{ group.name }}</h4>
-      </div>
+    <div class="archive-title">
+      <h4 class="archive-year">{{ group.name }}</h4>
+    </div>
 
-      <ul>
+    <ul>
       {% for post in group.items %}
-        <li><div style="width:60px;float:left;">{{ post.date | date: "%b %-d" }}</div> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+      <li>
+        <div style="width:60px;float:left;">{{ post.date | date: "%b %-d" }}</div> <a
+          href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </li>
       {% endfor %}
-      </ul>
+    </ul>
 
     {% endfor %}
   </div>

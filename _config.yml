@@ -5,9 +5,15 @@
 #
 title: York's blog
 email:
-description: York's blog.
-url: https://york.hypenode.tw
-keywords: ["York's blog", "blog", "jekyll"]
+description: "York's blog - 分享全端開發技術、架構設計與程式設計心得的個人部落格。"
+url: https://linyork.github.io  # GitHub Pages 預設網址
+baseurl: ""  # 使用者頁面 (username.github.io) 不需要 baseurl，保持空白
+keywords: ["York's blog", "blog", "jekyll", "全端開發", "PHP", "Go", "架構設計"]
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
 
 #
 ###################################
@@ -20,12 +26,25 @@ highlighter:       rouge
 excerpt_separator: <!-- more -->
 permalink:         /articles/:year-:month/:title
 
+# 排除不需要處理的檔案和資料夾
+exclude:
+  - docs/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - .bundle/
+  - README.md
+  - LICENSE.txt
+  - upgrade-and-start.bat
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  enable_coderay: false
+  input: GFM  # GitHub Flavored Markdown
+  syntax_highlighter: rouge  # 明確指定語法高亮器
 
 #
 ###################################

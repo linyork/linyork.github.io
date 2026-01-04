@@ -4,11 +4,20 @@ vendor
 
 # IDE
 .idea
+.vscode
 
 # jekyll
 _site
 .sass-cache
 .jekyll-metadata
+.jekyll-cache
+
+# Ruby
+.bundle
 
 # base
 .DS_Store
+Thumbs.db
+
+# Docker
+.docker

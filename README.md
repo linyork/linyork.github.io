@@ -1,71 +1,85 @@
-# Update 07/09/2018
+# York's Blog
 
-I'm planning to refactor Leonids theme!!!
+基於 [Leonids Jekyll Theme](https://github.com/renyuanz/leonids) 的個人技術部落格。
 
-The goal is really simple: make documentation more intuitive and deployment simpler!!!
+## 🌐 網站資訊
 
-Here is the plan:
+- **網址**: https://york.hypenode.tw
+- **主題**: Leonids - 簡潔的 Jekyll 主題
+- **部署**: GitHub Pages
 
-| Version | Description | Date |
-| --- | --- | --- |
-| 1.1 | Jekyll version deployable with gem | 07/15/2018 |
-| 1.2 | New features: Pagination, Prev/Next post | 07/22/2018 |
-| 2.0 | Gatsby or Vuepress version (vote in Issues) | who knows... |
+## ✨ 特色
 
-As the project was and will be designed to improve your writing experience, only documentation, gem, deployment process with CI relevant PRs are acceptable in the future.
+- 📱 響應式設計 - 支援手機、平板、桌面
+- 🎨 簡潔優雅的介面
+- 📝 Markdown 撰寫
+- 🔍 SEO 優化
+- 📊 分類和標籤系統
+- 💼 履歷頁面
 
-I want you to know how much I value your support.
+## 🚀 本地開發
 
-Share it to your timeline!
+### 前置需求
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-# Update 05/06/2016
+### 快速啟動
 
-Important! It's better to download the gzipped files instead of forking the repo. I would really appreciate if you could give me a star. 😁
-
-This project is under MIT license, so feel free to make it your own.
-
-# Leonids Jekyll Themes
-
-**[Leonids](http://renyuanz.github.io/leonids)** is a clean Jekyll theme perfect for powering your GitHub hosted blog.
-
-## What is Leonids?
-
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Simple and clear permalink structure.
-* Support for Disqus Comments.
-* Support for multi-authors.
-* **And** the Leonids (/ˈliːənɪdz/ lee-ə-nidz) are a prolific meteor shower associated with the comet [Tempel-Tuttle](https://en.wikipedia.org/wiki/55P/Tempel%E2%80%93Tuttle).
-
-See a [demo](http://renyuanz.github.io/leonids/) hosted on GitHub.
-
-## Quick setup
-
-```
-git clone https://github.com/renyuanz/leonids
-cd leonids
-jekyll server
+#### Windows
+```cmd
+start-dev.bat
 ```
 
-Check out your awesome blog at `http://localhost:4000` and Cheers!
-
-## Running with Docker
-
-```
-docker run --rm -it --volume=$PWD:/srv/jekyll -p 4000:4000 jekyll/jekyll:pages jekyll serve --watch --force_polling
+#### Mac/Linux
+```bash
+chmod +x start-dev.sh
+./start-dev.sh
 ```
 
-## Resume Page by [@Skn0tt](https://github.com/Skn0tt)
-Leonids features a simple resume page. It is divided up into five sections:
+### 訪問網站
+啟動後在瀏覽器開啟：
+- http://localhost:4000
 
-* Bio (Edit \_data/index/careers.yml)
-* Education (Edit \_data/index/education.yml)
-* Skills (Edit \_data/index/skills.yml)
-* Projects (Edit \_data/index/projects.yml)
-* About (Edit \_includes/sections/about.html)
+## 📝 撰寫文章
 
-You can put all your info into these files, and they will be featured on the resume page.
+### 建立新文章
+在 `_posts` 目錄建立檔案，格式：`YYYY-MM-DD-標題.md`
 
-## TODO
+```markdown
+---
+layout: post
+title: "文章標題"
+date: 2026-01-04 12:00:00 +0800
+categories: [分類1, 分類2]
+tags: [標籤1, 標籤2]
+---
 
-- [ ] Redesign categories page. Ref: [dribbble: blog category section By Ilja Miskov](https://dribbble.com/shots/2274792-Blog-Category-Selection)
-- [ ] Multi languages support.
+文章內容...
+```
+
+## 🔧 技術棧
+
+- **Jekyll**: 3.10.0
+- **GitHub Pages**: 232
+- **Kramdown**: 2.4.0
+- **Rouge**: 3.30.0
+- **Ruby**: 3.1.1 (Docker)
+
+## 📚 文件
+
+詳細的開發文件請參考 `docs/` 資料夾：
+- [快速開始](docs/快速開始.md)
+- [開發指南](docs/開發指南.md)
+
+## 🛑 停止伺服器
+
+按 `Ctrl + C`
+
+## 📄 授權
+
+本專案基於 MIT License。
+
+---
+
+**主題來源**: [Leonids Jekyll Theme](https://github.com/renyuanz/leonids)  
+**作者**: York  
+**最後更新**: 2026-01-04

@@ -8,4 +8,10 @@
 # Happy Jekylling!
 
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+
+# GitHub Pages gem - 升級到最新穩定版本 (2024)
+# 包含 Jekyll 3.10.0 和所有安全性修復
+gem 'github-pages', '~> 232', group: :jekyll_plugins
+
+# Ruby 3.0+ 需要 webrick
+gem 'webrick', '~> 1.8'
