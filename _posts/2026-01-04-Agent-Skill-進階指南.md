@@ -13,7 +13,9 @@ tags:
 在 AI Agent 領域中，如何讓大模型穩定地執行特定任務並節省 Token 成本，是開發者面臨的核心挑戰。Anthropic 於 **2025 年 10 月 16 日正式推出了 Agent Skill**，起初是為了提升 Claude 在特定任務上的表現，隨後因其設計優異，迅速被 VS Code、Cursor 等工具支持，並於 12 月 18 日演變為**跨平台的開放標準**。
 
 本文將深入探討 Agent Skill 的核心架構，特別是 **Reference** 與 **Script** 這兩個進階功能的使用與原理。
- <!-- more -->
+
+<!-- more -->
+
 ---
 
 ### 什麼是 Agent Skill？
