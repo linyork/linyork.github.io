@@ -3,14 +3,17 @@ layout: post
 title: Agent Skill 進階指南
 description: "本文深度解析 Anthropic 提出的 Agent Skill 開放標準，探討其如何透過漸進式披露機制優化 AI Agent 的 Token 消耗。內容涵蓋 skill.md 的構造、Reference 與 Script 的進階實作，並釐清其與 MCP 在數據處理上的本質區別"
 categories: AI
-tags: [AI, Agent Skill, Agent, Anthropic]
-comments: true
+tags: 
+- AI
+- Agent Skill
+- Agent
+- Anthropic
 ---
 
 在 AI Agent 領域中，如何讓大模型穩定地執行特定任務並節省 Token 成本，是開發者面臨的核心挑戰。Anthropic 於 **2025 年 10 月 16 日正式推出了 Agent Skill**，起初是為了提升 Claude 在特定任務上的表現，隨後因其設計優異，迅速被 VS Code、Cursor 等工具支持，並於 12 月 18 日演變為**跨平台的開放標準**。
 
 本文將深入探討 Agent Skill 的核心架構，特別是 **Reference** 與 **Script** 這兩個進階功能的使用與原理。
-
+ <!-- more -->
 ---
 
 ### 什麼是 Agent Skill？
