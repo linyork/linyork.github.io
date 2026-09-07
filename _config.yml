@@ -36,6 +36,7 @@ exclude:
   - .bundle/
   - README.md
   - LICENSE.txt
+  - CLAUDE.md
   - upgrade-and-start.bat
 
 kramdown:
