@@ -1,3 +1,13 @@
+- name: iris
+  descr: "個人資產管理 LINE / Telegram Bot"
+  image: pong.png
+  github: https://github.com/linyork/iris
+
+- name: Sotry
+  descr: "一個以 AI 驅動的互動敘事引擎，用於角色扮演與協作說故事。"
+  image: pong.png
+  github: https://github.com/linyork/sotry
+
 - name: Dibbling-extensino
   descr: "Youtube 點播系統 之 Chrome Extension "
   image: pong.png

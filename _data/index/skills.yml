@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: PHP, Typescript, AWS, HTML/CSS, Docker, Infrastructure
-percentage: 95, 90, 80, 90, 85, 85
+aspects: PHP, Typescript, AWS, AI Agent, Docker, Infrastructure
+percentage: 95, 90, 80, 85, 85, 85
